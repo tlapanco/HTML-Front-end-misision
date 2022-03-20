@@ -1,0 +1,48 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: #e3f2fd;
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+  box-shadow: 2px 6px 12px -9px rgba(0,0,0,0.93);
+}
+.site-header a {
+  color: black;
+  transition: color .15s ease-in-out;
+  text-decoration: none;
+}
+.site-header a:hover {
+  color: pink;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.hero-bolitta {
+    background-image: url("../assets/img/cupcake-de-corazones_1280x720.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}   
+
+.text-shadow {
+    color: white;
+    text-shadow: 2px 2px #FF0000;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.products {
+    transition: transform 0.3s ease-out;
+}
+
+.products:hover{
+    transform: scale(1.05);
+}
